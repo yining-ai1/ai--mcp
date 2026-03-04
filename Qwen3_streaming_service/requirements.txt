@@ -1,0 +1,5 @@
+# Qwen3_streaming_service 额外依赖（模型与 torch 由 Qwen3-TTS-streaming 环境提供）
+fastapi>=0.100.0
+uvicorn>=0.22.0
+numpy
+soundfile

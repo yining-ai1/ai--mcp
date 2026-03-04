@@ -1,0 +1,2 @@
+"""Entry layer (UI / wiring)."""
+

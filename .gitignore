@@ -1,0 +1,72 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.mypy_cache/
+
+# ========== 虚拟环境 ==========
+venv/
+.venv/
+env/
+.env.local/
+
+# ========== 环境与密钥 ==========
+.env
+!.env.example
+
+# ========== IDE / 编辑器 ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+
+# ========== 日志与临时 ==========
+*.log
+*.tmp
+*.temp
+tmp/
+
+# ========== 项目输出 ==========
+# Wan 视频输出
+wan_videos/
+*_output.wav
+
+# 本地大模型与工具仓库（不上传）
+CosyVoice/
+Qwen3-TTS-streaming/
+Wan2.2/
+output/
+
+# 本地 wheel 包（大文件不上传）
+flash_attn-*.whl
+
+# Gradio / Chat 生成文件（/tmp 下，此处仅作说明，实际由系统 /tmp 管理）
+# /tmp/mcp_tts_output*
+# /tmp/chat_tts_*
+# /tmp/chat_video_*
+# /tmp/gateway_*
+
+
+# ========== Jupyter ==========
+.ipynb_checkpoints/
